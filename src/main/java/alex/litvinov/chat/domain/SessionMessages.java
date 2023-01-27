@@ -1,7 +1,5 @@
-package alex.litvinov.chat.helpers;
+package alex.litvinov.chat.domain;
 
-
-import alex.litvinov.chat.broker.Message;
 
 import java.util.ArrayList;
 import java.util.List;

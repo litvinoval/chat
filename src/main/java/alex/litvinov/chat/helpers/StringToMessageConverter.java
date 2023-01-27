@@ -1,6 +1,6 @@
 package alex.litvinov.chat.helpers;
 
-import alex.litvinov.chat.broker.Message;
+import alex.litvinov.chat.domain.Message;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
