@@ -1,7 +1,7 @@
 package alex.litvinov.chat.controllers;
 
 import alex.litvinov.chat.broker.JmsMessagingSender;
-import alex.litvinov.chat.domain.Message;
+import alex.litvinov.chat.broker.Message;
 import alex.litvinov.chat.helpers.SessionMessages;
 import alex.litvinov.chat.domain.User;
 import lombok.extern.slf4j.Slf4j;

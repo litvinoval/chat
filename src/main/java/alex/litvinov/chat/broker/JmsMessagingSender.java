@@ -1,6 +1,5 @@
 package alex.litvinov.chat.broker;
 
-import alex.litvinov.chat.domain.Message;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Service;
 
