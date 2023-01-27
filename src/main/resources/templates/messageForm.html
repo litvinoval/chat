@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+
+</head>
+<body>
+<form method="post" th:object="${chatHistory}" th:action="@{/chat}">
+  <ul>
+    <div th:each="message : ${chatHistory.messages}">
+      <span th:text="${message.nick + ' said: ' + message.content}"></span>
+    </div>
+  </ul>
+  <label for="message">Enter your message</label>
+  <input type="text" name="message" id="message">
+  </br>
+  <input type="submit" value="Send">
+</form>
+<form method="get" th:action="@{/chat}">
+
+  <input type="submit" value="update">
+
+</form>
+</body>
+</html>
