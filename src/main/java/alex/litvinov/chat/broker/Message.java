@@ -1,4 +1,4 @@
-package alex.litvinov.chat.domain;
+package alex.litvinov.chat.broker;
 
 
 import lombok.AccessLevel;

@@ -1,7 +1,6 @@
 package alex.litvinov.chat.broker;
 
-import alex.litvinov.chat.domain.Message;
-import alex.litvinov.chat.domain.SessionMessages;
+import alex.litvinov.chat.helpers.SessionMessages;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
